@@ -45,9 +45,9 @@ a {
   grid-template-rows: 150px 30px 1fr;
   justify-content: space-around;
   margin: 20px 0;
-  padding: 6px;
+  padding: 5px;
   text-align: center;
-  border: 1px solid;
+  border: 1px solid lightgray;
 }
 
 .robot img {
@@ -59,8 +59,8 @@ a {
 }
 
 .userMain img {
-  border: 1px solid;
-  border-radius: 52%;
+  border: 1px solid lightgray;
+  border-radius: 50%;
   align-self: flex-end;
   margin: auto 20px 0 auto;
 }
@@ -72,3 +72,4 @@ a {
 .skill-list {
   grid-column: 2;
 }
+
